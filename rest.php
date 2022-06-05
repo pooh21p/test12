@@ -40,8 +40,6 @@
         return;
     }
         
-
-
     echo "<ul id = 'db_list'>";
     $keys = $api->redis->keys('*');
     foreach ($keys as $key)

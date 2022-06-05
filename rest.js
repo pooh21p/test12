@@ -32,8 +32,7 @@ function init_rest() {
             return false;
         }
     }    
-    
-    
+        
     document.querySelector('#reload_list').onclick = function() {
             
             const url = "api/redis";

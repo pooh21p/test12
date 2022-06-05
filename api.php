@@ -88,6 +88,7 @@
 			return $ret;
 		}
 
+
 		function get_method()
 		{
 			return $_SERVER['REQUEST_METHOD'];

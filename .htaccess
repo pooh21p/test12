@@ -1,3 +1,4 @@
 AddDefaultCharset UTF-8
 RewriteEngine on
+
 RewriteRule	^api/redis(.*)$ rest.php?rest=1 [L,QSA]
